@@ -1,0 +1,81 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "z_fY1pj1VBw",
+        "title": "台北象山",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "Ndo_8RuefH4",
+        "title": "台北大稻埕",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "fP4ecxfsJos",
+        "title": "台北大佳河濱公園",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "34h_Cy_n0Ok",
+        "title": "台北微風廣場",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "215ahZ_0rTg",
+        "title": "台北貓空指南宮",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "xwAWSh35uuw",
+        "title": "新北淡水漁人碼頭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "XSD5ptYisw8",
+        "title": "新北九份",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "YkIUZjVlhv4",
+        "title": "桃園拉拉山",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "tD_a03trUvE",
+        "title": "桃園永安漁港",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "tu_gsIkNt-w",
+        "title": "桃園虎頭山環保公園",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "3Za9y4z_Lzc",
+        "title": "桃園角板山思親亭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "5YDXZ1aiR5Y",
+        "title": "桃園三龜戲水",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "nV-DKquUjFs",
+        "title": "桃園上巴陵",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "BxMeMnX6Qqw",
+        "title": "桃園大古山",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "EUOp2LchPQM",
+        "title": "桃園阿姆坪薑母島",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};
