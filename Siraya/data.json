@@ -1,0 +1,22 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "xbojeDKjcaM",
+        "title": "二寮觀景台",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "zkX6X9p-6iA",
+        "title": "火山碧雲寺",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "kT-MGYO6bS0",
+        "title": "官田遊客中心",
+        "bgColor": "#F7C421",
+        "color": "white"
+    }]
+};
+

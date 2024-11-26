@@ -1,0 +1,27 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "ZayKvJKDPWc",
+        "title": "梨山德基水庫",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "RaTbGYKMUtk",
+        "title": "八卦山彰化平原",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "AE1wiaqDZjw",
+        "title": "獅頭山峨眉湖",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "L9y1pwGktQg",
+        "title": "獅頭山峨眉湖2",
+        "bgColor": "#F7C421",
+        "color": "white"
+    }]
+};
+

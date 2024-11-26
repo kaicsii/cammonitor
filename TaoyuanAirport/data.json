@@ -1,0 +1,21 @@
+data = {
+    "noise": 0,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "wWEnxWA7nnY",
+        "title": "第二航廈北側跑道",
+        "bgColor": "#e06330",
+        "color": "white"
+    },{
+        "id": "y3_x8el5ZJY",
+        "title": "第二航廈南側跑道",
+        "bgColor": "#e06330",
+        "color": "white"
+    },{
+        "id": "jp22cZQOa_0",
+        "title": "OBS",
+        "bgColor": "#e06330",
+        "color": "white"
+    }]
+};

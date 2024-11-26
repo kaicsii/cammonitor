@@ -1,0 +1,27 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "j2L_559nCjc",
+        "title": "二延平步道"
+    },{
+        "id": "dY2cRNr5Buw",
+        "title": "太平雲梯"
+    },{
+        "id": "agEzlv9n9Eg",
+        "title": "生力農場"
+    },{
+        "id": "hMYs60qtkK8",
+        "title": "牛埔仔大草原"
+    },{
+        "id": "8KnqJBf_dow",
+        "title": "觸口遊客中心"
+    },{
+        "id": "zDt8FBPozZQ",
+        "title": "里佳資訊站"
+    },{
+        "id": "jXcy8dmGYqg",
+        "title": "奮起湖"
+    }]
+};

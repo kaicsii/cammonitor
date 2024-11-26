@@ -1,0 +1,32 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "DliL9uMtPrI",
+        "title": "六十石山",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "5GTFLN9gZrc",
+        "title": "赤科山",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "29H5j3EsV3Q",
+        "title": "鯉魚潭",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "rvc1klNIgQc",
+        "title": "鹿野高台",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "Nz697yV7b54",
+        "title": "鯉魚潭小碼頭景區自拍",
+        "bgColor": "#F7C421",
+        "color": "white"
+    }]
+};
+
