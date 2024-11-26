@@ -1,0 +1,26 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "xwAWSh35uuw",
+        "title": "新北淡水漁人碼頭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "xxMRjVwCQ3o",
+        "title": "新北烘爐地",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "XSD5ptYisw8",
+        "title": "新北九份",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "HirBQsQEUeA",
+        "title": "新北十分瀑布",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};
