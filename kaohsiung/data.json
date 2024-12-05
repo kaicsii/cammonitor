@@ -1,0 +1,31 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "C03Itx8iSC0",
+        "title": "壽山情人觀景台",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "BnPoNatG-HE",
+        "title": "蓮池潭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "ka7FV0sCvxQ",
+        "title": "旗津",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "onO2BFj9AUw",
+        "title": "亞灣區",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "9nwOusbyaAc",
+        "title": "亞灣區360",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};

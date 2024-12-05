@@ -1,0 +1,1 @@
+[1228/003551.278:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\csii\AppData\Local\Google\Chrome\User Data\Crashpad\reports\b9d84b3d-241f-45cc-b746-4e2c83e9cac6.dmp: 程序無法存取檔案，因為檔案正由另一個程序使用。 (0x20)
