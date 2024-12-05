@@ -1,0 +1,16 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "fjhg3gAnMFg",
+        "title": "高美濕地",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "lhXXhDyjFtI",
+        "title": "望高寮",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};
