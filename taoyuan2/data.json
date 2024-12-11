@@ -1,0 +1,36 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "91PfFoqvuUk",
+        "title": "桃園國際機場（第三航廈咖啡）",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "68GFgzQxrXs",
+        "title": "桃園國際機場（華航諾富特飯店）",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "0D6QgDOdI6c",
+        "title": "動態資訊頻道",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "BxMeMnX6Qqw",
+        "title": "大古山",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "nV-DKquUjFs",
+        "title": "上巴陵",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "EUOp2LchPQM",
+        "title": "阿姆坪薑母島",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};

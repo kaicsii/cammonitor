@@ -1,0 +1,96 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "XUWjAsajKXg",
+        "title": "大溪老街",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "oFJ6gCaBb_Q",
+        "title": "大溪橋",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "GUCaVR88ZFU",
+        "title": "石門水庫",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "neaiCec1kec",
+        "title": "小烏來天空步道",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "YkIUZjVlhv4",
+        "title": "拉拉山遊客中心",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "hcGGNRfPvjM",
+        "title": "小烏來寰宇平台",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "yQSmajHyMhU",
+        "title": "虎頭山奧爾森林學堂",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "XEbo8NzMTbQ",
+        "title": "角板山生態池",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "-xT1bZhWLuU",
+        "title": "角板山梅園",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "kYeHzH4Ys4I",
+        "title": "後慈湖",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "pSQ0e-ZTZ5g",
+        "title": "慈湖水岸廣場",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "tD_a03trUvE",
+        "title": "永安漁港",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "tu_gsIkNt-w",
+        "title": "虎頭山環保公園",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "3Za9y4z_Lzc",
+        "title": "角板山思親亭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "5YDXZ1aiR5Y",
+        "title": "三龜戲水",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "91PfFoqvuUk",
+        "title": "桃園國際機場",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "EUOp2LchPQM",
+        "title": "阿姆坪薑母島",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "nV-DKquUjFs",
+        "title": "上巴陵",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};
