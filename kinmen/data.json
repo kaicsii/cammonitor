@@ -1,0 +1,22 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "uh_yNAE01w8",
+        "title": "金門 建功嶼",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "-srNHTE-Nf0",
+        "title": "金門 134高地",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "SR-6i6S8plg",
+        "title": "金門國家公園 慈湖三角堡",
+        "bgColor": "#F7C421",
+        "color": "white"
+    }]
+};
+
