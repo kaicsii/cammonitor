@@ -1,0 +1,57 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "GUCaVR88ZFU",
+        "title": "石門水庫",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "ZayKvJKDPWc",
+        "title": "梨山德基水庫",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "AE1wiaqDZjw",
+        "title": "獅頭山峨眉湖",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "L9y1pwGktQg",
+        "title": "獅頭山峨眉湖2",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "xbojeDKjcaM",
+        "title": "二寮觀景台",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "-srNHTE-Nf0",
+        "title": "134高地",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "agEzlv9n9Eg",
+        "title": "生力農場",
+        "bgColor": "#F7C421",
+        "color": "white"
+    },{
+        "id": "C03Itx8iSC0",
+        "title": "壽山",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "BnPoNatG-HE",
+        "title": "蓮池潭",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "ka7FV0sCvxQ",
+        "title": "旗津",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};
+
