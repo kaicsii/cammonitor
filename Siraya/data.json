@@ -17,6 +17,11 @@ data = {
         "title": "官田遊客中心",
         "bgColor": "#F7C421",
         "color": "white"
+    },{
+        "id": "EH4V8IwFIp4",
+        "title": "曾文水庫",
+        "bgColor": "#F7C421",
+        "color": "white"
     }]
 };
 
