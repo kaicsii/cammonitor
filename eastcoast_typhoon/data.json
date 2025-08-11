@@ -28,11 +28,6 @@ data = {
         "bgColor": "#284C9D",
         "color": "white"
     },{
-        "id": "wTHhv7M0vCI",
-        "title": "綠島南寮漁港",
-        "bgColor": "#284C9D",
-        "color": "white"
-    },{
         "id": "a8nJQr5rBGs",
         "title": "綠島柴口",
         "bgColor": "#284C9D",
@@ -42,6 +37,12 @@ data = {
         "title": "綠島帆船鼻",
         "bgColor": "#284C9D",
         "color": "white"
+    },{
+        "id": "wTHhv7M0vCI",
+        "title": "綠島南寮漁港",
+        "bgColor": "#284C9D",
+        "color": "white"
     }]
 };
+
 
