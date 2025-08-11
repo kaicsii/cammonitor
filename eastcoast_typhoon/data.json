@@ -1,0 +1,47 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "JhQuR77AR7U",
+        "title": "都歷遊客中心",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "dQ7Sd6PGLdA",
+        "title": "三仙台風景區",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "mXnigLvIL0Q",
+        "title": "石梯坪風景區",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "JkoXcXI04Qk",
+        "title": "大石鼻山",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "ZdqHgQwvZOw",
+        "title": "金樽遊憩區",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "wTHhv7M0vCI",
+        "title": "綠島南寮漁港",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "a8nJQr5rBGs",
+        "title": "綠島柴口",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "pLdBc8PvZko",
+        "title": "綠島帆船鼻",
+        "bgColor": "#284C9D",
+        "color": "white"
+    }]
+};
+
