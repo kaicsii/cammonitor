@@ -1,7 +1,7 @@
 data = {
     "noise": 1,
     "autoplay": 1,
-    "controls": 0,
+    "controls": 1,
     "items": [{
         "id": "3uhkiOfXP1M",
         "title": "鹿野高台",
@@ -48,4 +48,5 @@ data = {
         "bgColor": "#E95242",
         "color": "white"
     }]
+
 };
