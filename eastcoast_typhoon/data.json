@@ -23,6 +23,11 @@ data = {
         "bgColor": "#284C9D",
         "color": "white"
     },{
+        "id": "JnD8Rk3o0BM",
+        "title": "花蓮豐濱長虹橋",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
         "id": "ZdqHgQwvZOw",
         "title": "金樽遊憩區",
         "bgColor": "#284C9D",
@@ -33,16 +38,12 @@ data = {
         "bgColor": "#284C9D",
         "color": "white"
     },{
-        "id": "pLdBc8PvZko",
-        "title": "綠島帆船鼻",
-        "bgColor": "#284C9D",
-        "color": "white"
-    },{
         "id": "wTHhv7M0vCI",
         "title": "綠島南寮漁港",
         "bgColor": "#284C9D",
         "color": "white"
     }]
 };
+
 
 
