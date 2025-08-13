@@ -8,8 +8,8 @@ data = {
         "bgColor": "#284C9D",
         "color": "white"
     },{
-        "id": "dQ7Sd6PGLdA",
-        "title": "三仙台風景區",
+        "id": "AKl3F6cAY2Q",
+        "title": "加路蘭風景區",
         "bgColor": "#284C9D",
         "color": "white"
     },{
@@ -44,6 +44,7 @@ data = {
         "color": "white"
     }]
 };
+
 
 
 
