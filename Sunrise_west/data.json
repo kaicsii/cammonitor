@@ -5,7 +5,7 @@ data = {
     "items": [{
         "id": "GUCaVR88ZFU",
         "title": "石門水庫",
-        "bgColor": "#E95242",
+        "bgColor": "#F7C421",
         "color": "white"
     },{
         "id": "ZayKvJKDPWc",
@@ -45,19 +45,20 @@ data = {
     },{
         "id": "C03Itx8iSC0",
         "title": "壽山",
-        "bgColor": "#E95242",
+        "bgColor": "#F7C421",
         "color": "white"
     },{
         "id": "BnPoNatG-HE",
         "title": "蓮池潭",
-        "bgColor": "#E95242",
+        "bgColor": "#F7C421",
         "color": "white"
     },{
         "id": "ka7FV0sCvxQ",
         "title": "旗津",
-        "bgColor": "#E95242",
+        "bgColor": "#F7C421",
         "color": "white"
     }]
 };
+
 
 
