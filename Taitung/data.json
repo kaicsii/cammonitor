@@ -47,5 +47,11 @@ data = {
         "title": "南橫埡口",
         "bgColor": "#E95242",
         "color": "white"
+    },{
+        "id": "BUJJaW0vkJs",
+        "title": "鯉魚山",
+        "bgColor": "#E95242",
+        "color": "white"
     }]
+
 };
