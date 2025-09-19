@@ -3,11 +3,6 @@ data = {
     "autoplay": 1,
     "controls": 1,
     "items": [{
-        "id": "3uhkiOfXP1M",
-        "title": "鹿野高台",
-        "bgColor": "#E95242",
-        "color": "white"
-    },{
         "id": "6kUEK3LVrro",
         "title": "池上天堂路",
         "bgColor": "#E95242",
@@ -20,11 +15,6 @@ data = {
     },{
         "id": "VqS_Y8ZCj6M",
         "title": "杉原灣",
-        "bgColor": "#E95242",
-        "color": "white"
-    },{
-        "id": "Rsq95SQ26bY",
-        "title": "富山",
         "bgColor": "#E95242",
         "color": "white"
     },{
@@ -43,11 +33,12 @@ data = {
         "bgColor": "#E95242",
         "color": "white"
     },{
-        "id": "LSkq-wHMxQY",
-        "title": "南橫埡口",
+        "id": "TY4qQElcUrA",
+        "title": "華源曙光觀景台",
         "bgColor": "#E95242",
         "color": "white"
     }]
 
 };
+
 
