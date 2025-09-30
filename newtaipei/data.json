@@ -22,5 +22,10 @@ data = {
         "title": "新北十分瀑布",
         "bgColor": "#E95242",
         "color": "white"
+    },{
+        "id": "di-4DCblWq4",
+        "title": "新北淡江大橋",
+        "bgColor": "#E95242",
+        "color": "white"
     }]
 };
