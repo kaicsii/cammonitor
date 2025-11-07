@@ -18,13 +18,13 @@ data = {
         "bgColor": "#E95242",
         "color": "white"
     },{
-        "id": "9QqBz3kNHis",
-        "title": "金崙大橋",
+        "id": "Rsq95SQ26bY",
+        "title": "富山",
         "bgColor": "#E95242",
         "color": "white"
     },{
-        "id": "D945F_dauls",
-        "title": "富岡漁港",
+        "id": "9QqBz3kNHis",
+        "title": "金崙大橋",
         "bgColor": "#E95242",
         "color": "white"
     },{
@@ -33,12 +33,18 @@ data = {
         "bgColor": "#E95242",
         "color": "white"
     },{
-        "id": "TY4qQElcUrA",
-        "title": "華源曙光觀景台",
+        "id": "D945F_dauls",
+        "title": "富岡漁港",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "BUJJaW0vkJs",
+        "title": "鯉魚山",
         "bgColor": "#E95242",
         "color": "white"
     }]
 
 };
+
 
 
