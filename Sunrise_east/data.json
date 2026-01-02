@@ -57,6 +57,12 @@ data = {
         "title": "富山",
         "bgColor": "#E95242",
         "color": "white"
+    },{
+        "id": "TY4qQElcUrA",
+        "title": "華源曙光觀景台",
+        "bgColor": "#E95242",
+        "color": "white"
     }]
 };
+
 
