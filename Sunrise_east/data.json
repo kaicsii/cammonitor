@@ -62,7 +62,13 @@ data = {
         "title": "華源曙光觀景台",
         "bgColor": "#E95242",
         "color": "white"
+    },{
+        "id": "BUJJaW0vkJs",
+        "title": "鯉魚山",
+        "bgColor": "#E95242",
+        "color": "white"
     }]
 };
+
 
 
