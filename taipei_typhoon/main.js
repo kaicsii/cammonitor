@@ -9,14 +9,23 @@
 
     var noiseCls = data.noise === 1 ? ' show-noise' : '';
 
-    // 版面插槽：data.items[0] 為主畫面，其餘 5 個為次要畫面
-    var slots = ['main', 's1', 's2', 's3', 's4', 's5'];
+    // 篩選有訊號的攝影機項目，最多支援 6 個
+    var activeItems = (data.items || []).filter(function (item) {
+        return item && item.enabled !== false;
+    });
+
+    var count = activeItems.length;
+    if (count > 6) { count = 6; }
+    if (count < 1) { count = 1; } // 至少保留一個畫面（顯示無訊號提示）
+
+    // 版面插槽：依據目前數量動態裁切插槽陣列
+    var slots = ['main', 's1', 's2', 's3', 's4', 's5'].slice(0, count);
 
     var stage = document.createElement('div');
-    stage.className = 'stage';
+    stage.className = 'stage stage--count-' + count;
 
     slots.forEach(function (slot, idx) {
-        var item = data.items && data.items.length > idx ? data.items[idx] : null;
+        var item = activeItems.length > idx ? activeItems[idx] : null;
         var cell = document.createElement('div');
         cell.className = 'cell cell--' + slot + noiseCls;
 
@@ -38,6 +47,21 @@
             iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
             iframe.setAttribute('allowfullscreen', '');
             cell.appendChild(iframe);
+        } else {
+            // 無鏡頭可用時的防錯預設畫面
+            var badge = document.createElement('div');
+            badge.className = 'badge';
+            badge.textContent = String(idx + 1);
+            cell.appendChild(badge);
+
+            var loc = document.createElement('div');
+            loc.className = 'loc';
+            loc.textContent = '無可用攝影機訊號';
+            cell.appendChild(loc);
+
+            if (!cell.className.match(/\bshow-noise\b/)) {
+                cell.className += ' show-noise';
+            }
         }
 
         stage.appendChild(cell);

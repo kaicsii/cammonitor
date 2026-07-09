@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>台北 Monitor</title>
+    <title>台北即時影像 颱風動態監測</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
         html, body {
@@ -22,17 +22,72 @@
             margin: auto;
             width: min(100vw, calc(100vh * 16 / 9));
             aspect-ratio: 16 / 9;
-
             display: grid;
+            gap: 2px;
+            background: #900;              /* 格線顏色 */
+        }
+
+        /* 預設 4x4 網格系統 */
+        .stage--count-6,
+        .stage--count-5,
+        .stage--count-4,
+        .stage--count-3,
+        .stage--count-2 {
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(4, 1fr);
+        }
+
+        /* 6 個攝影機版面配置 */
+        .stage--count-6 {
             grid-template-areas:
                 "main main main s1"
                 "main main main s2"
                 "main main main s3"
                 "s4   s5   sat  sat";
-            gap: 2px;
-            background: #900;              /* 格線顏色 */
+        }
+
+        /* 5 個攝影機版面配置 */
+        .stage--count-5 {
+            grid-template-areas:
+                "main main main s1"
+                "main main main s2"
+                "main main main s3"
+                "s4   sat  sat  sat";
+        }
+
+        /* 4 個攝影機版面配置 */
+        .stage--count-4 {
+            grid-template-areas:
+                "main main main s1"
+                "main main main s2"
+                "main main main s3"
+                "sat  sat  sat  sat";
+        }
+
+        /* 3 個攝影機版面配置 */
+        .stage--count-3 {
+            grid-template-areas:
+                "main main s1   s1"
+                "main main s1   s1"
+                "s2   s2   sat  sat"
+                "s2   s2   sat  sat";
+        }
+
+        /* 2 個攝影機版面配置 */
+        .stage--count-2 {
+            grid-template-areas:
+                "main main s1   s1"
+                "main main s1   s1"
+                "sat  sat  sat  sat"
+                "sat  sat  sat  sat";
+        }
+
+        /* 1 個攝影機版面配置 */
+        .stage--count-1 {
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas:
+                "main sat";
         }
 
         /* 每一格（單格 = 舞台的 1/4 寬 × 1/4 高 = 16:9；主畫面 3×3 同樣是 16:9） */
@@ -65,6 +120,7 @@
 
         /* 左上角編號徽章 */
         .badge {
+            display: none; /* 暫時隱藏 */
             position: absolute;
             top: 10px;
             left: 10px;
@@ -82,7 +138,7 @@
         .loc {
             position: absolute;
             top: 11px;
-            left: 54px;
+            left: 10px; /* 原為 54px，因徽章隱藏而移至最左側對齊 */
             color: #fff;
             letter-spacing: 1px;
             text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
@@ -98,7 +154,7 @@
             line-height: 44px;
         }
         .cell--main .loc {
-            left: 66px;
+            left: 15px; /* 原為 66px，因徽章隱藏而移至最左側對齊 */
             font-size: 21px;
             line-height: 44px;
         }
