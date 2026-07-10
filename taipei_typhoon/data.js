@@ -1,7 +1,7 @@
 data = {
     "noise": 0,
     "autoplay": 1,
-    "controls": 0,
+    "controls": 1,
     "items": [{
         "id": "z_fY1pj1VBw",
         "title": "台北 象山 Mt. Elephant",
