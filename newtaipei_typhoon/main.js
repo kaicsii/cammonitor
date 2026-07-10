@@ -1,93 +1,35 @@
-(function() {
-    var addRule = (function(style){
-        var sheet = document.head.appendChild(style).sheet;
-        return function(selector, css){
-            var propText = Object.keys(css).map(function(p){
-                return p+":"+css[p]
-            }).join(";");
-            sheet.insertRule(selector + "{" + propText + "}", sheet.cssRules.length);
-        }
-    })(document.createElement("style"));
-
-    var $body = document.body,
-        total = data.items.length,
-        html = '',
-        frame = '',
-        title,
-        color,
-        bgColor,
-        extraCls = ' ',
-        n = 1,
-        tpl = '<div id="monitor-{number}" class="col col-{col} {extraCls}" data-loc="{title}">{iframe}</div>',
+(function () {
+    // 版面固定為：1 個主畫面 + 4 個次畫面 + 1 個衛星雲圖定位區。
+    // 攝影機依 data.items 順序對應：[0]=主畫面（左上 2x2）、[1..4]=其餘四格（第 6 個以後不顯示）。
+    var wall = document.getElementById('wall'),
+        slots = ['main', 'c2', 'c3', 'c4', 'c5'],
         params = [],
-        item,
-        prePageAmount = 16;
-        
-    if (total <= 9)  {
-        prePageAmount = 9;
-    }
+        noiseCls = (data.noise === 1) ? ' show-noise' : '',
+        frag = '';
 
-    if (total <= 6)  {
-        prePageAmount = 6;
-    }
-
-    if (total <= 4) {
-        prePageAmount = 4;
-    }
-
-    if (data.controls < 1) {
-        params.push('controls=1');
-    }
-
+    params.push('controls=' + (data.controls === 1 ? 1 : 0));
     if (data.autoplay === 1) {
         params.push('autoplay=1');
+        params.push('mute=1'); // 瀏覽器自動播放政策：未靜音無法 autoplay（監控牆本就適合靜音）
     }
 
-    if (data.noise === 1) {
-        extraCls += 'show-noise ';
-    }
-    
-    for(var i =prePageAmount; i>=1 ; i--) {
-        title = '';
-        color = 'black';
-        bgColor = 'yellow';
-        item = data.items.length >= i? data.items[i-1]: null;
-        if (item === null) {
+    slots.forEach(function (area, idx) {
+        var item = data.items[idx] || null,
+            title = '',
             frame = '';
-        }
-        else {     
 
-            if (item.hasOwnProperty('title')) {
-                title = item.title || '';
-            }
-            
-            if (item.hasOwnProperty('bgColor')) {
-                bgColor = item.bgColor || 'yellow';
-            }
-            if (item.hasOwnProperty('color')) {
-                color = item.color || 'yellow';
-            }
-
-            frame =  '<iframe src="https://www.youtube.com/embed/{id}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>'
-                .replace('{id}', item.id.concat('?', params.join('&')));
+        if (item) {
+            title = item.title || '';
+            frame = '<iframe src="https://www.youtube.com/embed/' + item.id + '?' + params.join('&') +
+                '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
         }
 
-        html = tpl.replace('{col}', prePageAmount.toString())
-                .replace('{number}', n.toString())
-                .replace('{extraCls}', extraCls)
-                .replace('{title}', title)
-                .replace('{iframe}', frame);
+        frag += '<div class="col' + noiseCls + '" style="grid-area:' + area + '" data-loc="' + title + '">' +
+            frame + '</div>';
+    });
 
-        $body.insertAdjacentHTML('afterbegin', html);
-        
-        if (bgColor !== 'yellow' || color !== 'black') {
-            addRule('#monitor-' + n.toString() + ':before', {
-                'background-color': bgColor,
-                'color': color
-            });
-        }
+    // 衛星雲圖：透明定位區，供 OBS 疊上圖片／瀏覽器來源時對齊
+    frag += '<div class="sat"><span>氣象衛星雲圖<br><small>OBS 疊圖定位區</small></span></div>';
 
-        n++;
-    }
+    wall.insertAdjacentHTML('beforeend', frag);
 })();
-
