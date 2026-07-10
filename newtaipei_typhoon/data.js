@@ -16,7 +16,7 @@
 var data = {
     noise: 1,
     autoplay: 1,
-    controls: 0,
+    controls: 1,
 
     cameras: [
         { id: "xwAWSh35uuw", title: "新北淡水漁人碼頭", online: true },
