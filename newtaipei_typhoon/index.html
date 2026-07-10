@@ -27,14 +27,11 @@
             width: min(100vw, 177.78vh);   /* 16/9  */
             height: min(100vh, 56.25vw);   /* 9/16  */
             background: #000;
-            /* 3x3 網格：每格 = 畫布 1/3 寬 x 1/3 高 = 16:9。主畫面佔 2x2、雲圖佔右側直向 2 格 */
+            /* 固定 3 欄 x 3 列（每格 = 畫布 1/3 寬 x 1/3 高 = 16:9）。
+               實際的區塊配置(grid-template-areas)由 main.js 依可用攝影機數量動態套用。 */
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            grid-template-areas:
-                "main main c2"
-                "main main c3"
-                "c4   c5   sat";
         }
 
         .col {
@@ -100,7 +97,7 @@
 </head>
 <body>
     <div id="wall"></div>
-    <script src="data.json"></script>
+    <script src="data.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
