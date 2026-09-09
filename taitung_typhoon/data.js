@@ -30,7 +30,7 @@ data = {
         "bgColor": "#E95242",
         "color": "white"
     },{
-        "id": "fNgfsy5vaws",
+        "id": "AdZHUBCV3iw",
         "title": "富山",
         "bgColor": "#E95242",
         "color": "white"
