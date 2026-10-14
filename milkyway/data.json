@@ -1,0 +1,36 @@
+data = {
+    "noise": 1,
+    "autoplay": 1,
+    "controls": 1,
+    "items": [{
+        "id": "JhQuR77AR7U",
+        "title": "都歷遊客中心",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "ZdqHgQwvZOw",
+        "title": "金樽遊憩區",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "a8nJQr5rBGs",
+        "title": "綠島柴口",
+        "bgColor": "#284C9D",
+        "color": "white"
+    },{
+        "id": "LSkq-wHMxQY",
+        "title": "南橫埡口",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "nV-DKquUjFs",
+        "title": "上巴陵",
+        "bgColor": "#E95242",
+        "color": "white"
+    },{
+        "id": "3JzbzXqusDg",
+        "title": "巴陵馬崙砲台觀景平台",
+        "bgColor": "#E95242",
+        "color": "white"
+    }]
+};

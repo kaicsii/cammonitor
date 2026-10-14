@@ -1,0 +1,21 @@
+data = {
+    "noise": 0,
+    "autoplay": 1,
+    "controls": 0,
+    "items": [{
+        "id": "mMRF0LwZ0_s",
+        "title": "桃園國際機場 南北跑道 OBS",
+        "bgColor": "#e06330",
+        "color": "white"
+    },{
+        "id": "0D6QgDOdI6c",
+        "title": "桃園機場動態資訊頻道 OBS",
+        "bgColor": "#e06330",
+        "color": "white"
+    },{
+        "id": "EdMRh2gX5k8",
+        "title": "桃園賞鳥雷達 OBS",
+        "bgColor": "#e06330",
+        "color": "white"
+    }]
+};
