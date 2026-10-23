@@ -23,7 +23,7 @@ var data = {
 
     // ---- 攝影機清單 ----
     "items": [
-        { "enabled": true, "id": "dQ7Sd6PGLdA", "title": "三仙台風景區" },
+        { "enabled": true, "id": "X_fchztvqI0", "title": "三仙台風景區" },
         { "enabled": true, "id": "JhQuR77AR7U", "title": "都歷遊客中心" },
         { "enabled": true, "id": "AKl3F6cAY2Q", "title": "加路蘭遊憩區" },
         { "enabled": true, "id": "mXnigLvIL0Q", "title": "石梯坪風景區" },
